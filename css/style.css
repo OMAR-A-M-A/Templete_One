@@ -180,9 +180,8 @@ main {
     background-size: cover;
     height: calc(100vh - 64px);
     display: flex;
-    justify-items: center;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 main .main-text {
@@ -448,14 +447,14 @@ margin-bottom: 15px;
 }
 /* end-contact */
 /* start-footer */
-.foooter{
+.footer{
     background-color: var(--secondary-color);
     color: white;
     text-align: center;
     padding: 30px 10px;
     font-size: 18px;
 }
-.foooter span{
+.footer span{
     font-weight: bold;
     color: var(--main-color);
 }
